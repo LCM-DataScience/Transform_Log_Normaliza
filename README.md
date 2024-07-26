@@ -1,26 +1,27 @@
 🔀 Estatística - Estudo de Caso:
-
 Transformação Logarítmica, Normalização e Outras Transformações
 
+Uma tarefa simples poderia se tornar um desafio, se tivermos uma grande disparidade a ser interpretada? É possível haver tarefa difícil, se não houver disparidade a ser interpretada?
 
 🔎 Necessidade técnica:
 
-No mercado financeiro, diferentes ativos podem ter ordens de grandeza distintas, dificultando comparações diretas. Para resolver esse problema, utilizamos transformações de dados, que melhoram a visualização e interpretação dos resultados.
+No mercado financeiro, diferentes ativos podem ter ordens de grandeza distintas. Por exemplo, se quisermos comparar ações de altos com baixos valores, utilizamos transformações de dados, que melhoram a visualização e interpretação dos resultados. Estas transformações estão detalhadas neste 5 tópicos abaixo:
 
 
 1️⃣ Transformação Logarítmica:
 
-✅ Aplicação prática: Aqui é utilizado o logaritmo natural (ln(x)) para transformar os valores do S&P 500 e IBOVESPA, que possuem magnitudes distintas. Essa transformação facilita a comparação direta, trazendo os valores para uma escala linear. 
+✅ Aplicação prática: Um bom exemplo para ser considerado são os dois gráficos que vemos na capa do arquivo anexo:
+No gráfico com os dados originais, os valores de 'S&P 500' são representados com magnitudes nominais. Grandes flutuações dominam a visualização do gráfico, obscurecendo mudanças mais sutis que ainda são relevantes.
 
+Ao aplicar o logaritmo natural aos valores do 'S&P 500', convertemos as grandes variações em valores mais comparáveis. Pequenas variações tornam-se mais perceptíveis e as diferenças de escala são reduzidas para a continuação da análise.
 
 🔎 Características do Logaritmo Natural:
-
-Calculado com base no número irracional (e), aproximadamente 2,71828, suas propriedades ajudam a converter grandes variações em valores mais comparáveis, transformando distribuições nominais em distribuições mais lineares.
+Calculado com base no número irracional de Euler (aproximadamente 2,71828), o logaritmo natural ajuda a converter grandes variações em valores mais comparáveis.
 
 
 2️⃣ Normalização
 
-✅ Aplicação prática: Neste exemplo, os dados obstidos de S&P 500 e IBOVESPA são divididos por seus valores iniciais, trazendo ambos os índices para uma base comum e facilitando a análise comparativa.
+✅ Aplicação prática: Neste exemplo, os dados obtidos de S&P 500 e IBOVESPA são divididos por seus valores iniciais, trazendo ambos os índices para uma base comum e facilitando a análise comparativa.
 
 
 3️⃣ Padronização (Scale)
@@ -47,3 +48,5 @@ Inicialmente, os dados nominais dos índices mostram uma grande disparidade, dif
 
 
 Com a normalização e as outras transformações, foi possível unificar as escalas dos dados, destacar as flutuações em torno da média, ajustar os dados para um intervalo fixo e destacar variações significativas.
+
+
